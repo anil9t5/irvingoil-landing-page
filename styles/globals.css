@@ -2,8 +2,11 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #414042;
+  font-family: "FSSilasSlab", Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 28px;
 }
 
 a {
@@ -14,3 +17,219 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "FSSilasSlab", Georgia, serif;
+  font-weight: 700;
+  color: #313793;
+}
+hr {
+  background-color: #aaaaaa;
+}
+p {
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: "FSSilasSlab";
+  src: url("/fonts/FSSilasSlab_Webfonts/Web_Fonts/Regular/FSSilasSlabWeb-Regular.woff")
+      format("woff2"),
+    url("/fonts/FSSilasSlab_Webfonts/Web_Fonts/Regular/FSSilasSlabWeb-Regular.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "FSSilasSlab";
+  src: url("/fonts/FSSilasSlab_Webfonts/Web_Fonts/Bold/FSSilasSlabWeb-Bold.woff")
+      format("woff2"),
+    url("/fonts/FSSilasSlab_Webfonts/Web_Fonts/Bold/FSSilasSlabWeb-Bold.woff")
+      format("woff");
+  font-weight: bold;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 400px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.font-weight-light {
+  font-weight: 300;
+}
+.font-weight-bold {
+  font-weight: 600;
+}
+.font-weight-semibold {
+  font-weight: 500;
+}
+
+.navbar .megamenu {
+  padding: 1rem;
+}
+.custom-navbar {
+  border-top: 1px solid #dddddd !important;
+}
+.custom-navbar a {
+  color: #333333 !important;
+  font-size: 18px;
+  padding-left: 0.8rem !important;
+  padding-right: 0.8rem !important;
+}
+.navbar-toggler {
+  width: 47px;
+  height: 34px;
+  background-color: #7eb444;
+}
+.navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+.hide {
+  display: none;
+}
+.search-click {
+  outline: none;
+  border: 0px;
+  background-size: 22px;
+  background-position: 13px;
+  width: 300px;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+.search-click {
+  position: absolute;
+  overflow: hidden;
+  height: 40px;
+  right: 5%;
+  top: 2.4%;
+  animation: searchbox 0.5s;
+}
+.search-click input {
+  background: transparent;
+  border: 1px solid #ccc;
+  outline: none;
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  left: 0%;
+  padding: 10px;
+}
+@keyframes searchbox {
+  0% {
+    width: 100px;
+  }
+  100% {
+    width: 300px;
+  }
+}
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+  .navbar .has-megamenu {
+    position: static !important;
+  }
+  .navbar .megamenu {
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media (max-width: 991px) {
+  .hide-on-phone {
+    display: none !important;
+  }
+  .navbar.fixed-top .navbar-collapse,
+  .navbar.sticky-top .navbar-collapse {
+    overflow-y: auto;
+    max-height: 90vh;
+    margin-top: 10px;
+  }
+  .navbar-toggler {
+    background-color: #d22d35;
+  }
+  .justify-toggler-right {
+    display: flex !important;
+    justify-content: flex-end !important;
+  }
+  .each-slide h2 {
+    font-size: 36px !important;
+    margin: 20px 20px;
+  }
+  .btn-call-to-action {
+    font-size: 20px;
+    text-align: left;
+    margin: 20px 20px;
+  }
+  #services {
+    padding: 15px !important;
+  }
+  #services h3 {
+    font-size: 30px !important;
+  }
+  .text-content-box p {
+    padding: 20px 0px 0px !important;
+  }
+  .text-content-box h4 {
+    padding: 20px 0px 0px !important;
+  }
+  .text-content-box ul {
+    padding: 0px !important;
+  }
+  .img-container {
+    height: 180px !important;
+  }
+  .flex-column-on-phone {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .text-content-box {
+    padding: 15px !important;
+  }
+  .text-content-box h3 {
+    padding: 15px 0px !important;
+  }
+  .footer-img-box {
+    height: 80px !important;
+  }
+  .margin-auto-on-phone {
+    margin: 0 auto !important;
+  }
+  .footer .img-container img {
+    object-fit: contain !important;
+  }
+  .footer .navbar-nav {
+    flex-direction: row !important;
+  }
+  .footer-nav .nav-link {
+    padding: 0px 15px !important;
+  }
+  .margin-top-10-on-phone {
+    margin-top: 10px !important;
+  }
+}
+/* ============ mobile view .end// ============ */

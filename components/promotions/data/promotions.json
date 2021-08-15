@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "title":"Every mile gets you closer to your next Reward",
+            "description": "Earn one Air Miles Reward Miles everytime you spend $20 dollars in-store or at the pump! Link your AIR MILES Collector Card to your Irving Energy home heating account to earn even faster.",
+            "links": [
+                "Sign up for an AIR MILES® Collector Card",
+                "Learn how to earn AIR MILES® Reward Miles faster"
+            ],
+            "imgUrl":"../../../images/airmiles.jpg"
+        },
+        {
+            "title":"Irving Oil Hand Sanitizer",
+            "description": "During the Covid-19 pandemic, we acted quickly and created a line of Hand Sanitizer that comes in four different sizes, from 950ml down to a small 50ml that can fit easily in your pocket or purse.",
+            "links": [
+                "Where to buy",
+                "Learn more about how this project came together"
+            ],
+            "imgUrl":"../../../images/sanitizer.jpg"
+        }
+    ]
+}
