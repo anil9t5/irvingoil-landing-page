@@ -29,8 +29,8 @@ const Navbar = () => {
   return (
     <header>
       <div className="nav-secondary row d-flex align-items-end">
-        <div className="col-lg-3 hide-on-phone">&nbsp;</div>
-        <div className="col-lg-6 text-center">
+        <div className="col-lg-4 hide-on-phone">&nbsp;</div>
+        <div className="col-lg-4 text-center">
           <a href="/" className="navbar-brand font-weight-bold">
             <img
               src={logoUrl}
@@ -41,7 +41,8 @@ const Navbar = () => {
             />
           </a>
         </div>
-        <div className="col-lg-3 d-flex justify-content-around margin-top-10-on-phone">
+        <div className="col-lg-4 d-flex justify-content-around margin-top-10-on-phone">
+          <span style={{ width: "45px" }}>&nbsp;</span>
           <span>Hi Anthony</span>
           <span>
             <img

@@ -276,7 +276,7 @@ p {
   only screen and (min-resolution: 2dppx) {
   /* Retina styles here */
   .nav-secondary span {
-    font-size: 13px !important;
+    font-size: 14px !important;
   }
   #main_nav ul {
     padding: 0px !important;
