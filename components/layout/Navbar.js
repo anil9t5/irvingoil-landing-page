@@ -28,7 +28,7 @@ const Navbar = () => {
   }
   return (
     <header>
-      <div className="nav-secondary row d-flex align-items-center">
+      <div className="nav-secondary row d-flex align-items-end">
         <div className="col-lg-3 hide-on-phone">&nbsp;</div>
         <div className="col-lg-6 text-center">
           <a href="/" className="navbar-brand font-weight-bold">
@@ -48,19 +48,11 @@ const Navbar = () => {
               src={flag}
               alt=""
               width="auto"
-              height="15"
+              height="14"
               className="d-inline-block align-text-top"
             />
             &nbsp;&nbsp; Canada English
           </span>
-          {/* <span className="search-icon-area">&nbsp;</span> */}
-          {/* <input
-            type="text"
-            className="search-click"
-            onChange={handleSearch}
-            name=""
-            placeholder="search here..."
-          /> */}
           <OnOutsiceClick onOutsideClick={closeSearchBox}>
             <i className="bi bi-search" onClick={handleSearch} />
             <SearchBox status={clicked} />
@@ -164,6 +156,14 @@ const Navbar = () => {
         .nav-secondary {
           padding-top: 10px;
           padding-bottom: 10px;
+          span {
+            font-size: 14px;
+            color: #787878;
+          }
+          .bi-search {
+            color: #d22d35;
+            font-size: 20px;
+          }
         }
         .megamenu {
           padding: 0px;

@@ -266,3 +266,32 @@ p {
   }
 }
 /* ============ mobile view .end// ============ */
+
+/* Apple iPad Pro 12.9 (2018) Retina Media Queries */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 264dpi),
+  only screen and (min-resolution: 2dppx) {
+  /* Retina styles here */
+  .nav-secondary span {
+    font-size: 13px !important;
+  }
+  #services .text-content-box h4,
+  p,
+  ul {
+    padding: 20px 0px !important;
+    margin-bottom: 0px;
+    font-size: 20px !important;
+  }
+  #services .img-container {
+    height: 180px !important;
+  }
+  #promotions .text-content-box {
+    padding: 30px !important;
+  }
+  #promotions .text-content-box h3 {
+    padding: 0px !important;
+  }
+}
