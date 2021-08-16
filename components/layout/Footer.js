@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
         <hr className="custom-hr" />
         <div className="row mb-2">
-          <div className="col-lg-9 offset-lg-1 push-left margin-auto-on-phone">
+          <div className="col-lg-9 offset-lg-1 margin-auto-on-phone">
             <div className="d-flex justify-content-between align-items-center flex-column-on-phone">
               <div className="footer-logo d-flex align-items-center">
                 <a href="/" className="navbar-brand font-weight-bold">
