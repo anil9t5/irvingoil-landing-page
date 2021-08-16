@@ -194,6 +194,9 @@ p {
   .text-content-box p {
     padding: 20px 0px 0px !important;
   }
+  .text-content-box ul li a {
+    font-size: 18px !important;
+  }
   .text-content-box h4 {
     padding: 20px 0px 0px !important;
   }

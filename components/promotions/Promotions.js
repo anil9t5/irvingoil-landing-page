@@ -25,7 +25,7 @@ const Promotions = () => {
                 {data.links.map((link, index) => (
                   <li key={index}>
                     <a href="#">
-                      <i className="bi bi-arrow-right" />
+                      {/* <i className="bi bi-arrow-right" /> */}
                       &nbsp;{link}
                     </a>
                   </li>
@@ -61,6 +61,15 @@ const Promotions = () => {
           ul {
             list-style: none;
             padding-left: 15px;
+            li::before {
+              content: "";
+              display: inline-block;
+              height: 14px;
+              width: 20px;
+              background-image: url("../../images/arrow.png");
+              background-size: 20px;
+              background-repeat: no-repeat;
+            }
           }
           h3,
           p {
