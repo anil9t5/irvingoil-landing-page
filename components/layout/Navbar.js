@@ -118,7 +118,7 @@ const Navbar = () => {
                               when you order online or on the phone!
                             </p>
                           </div>
-                          <div className="img-container">
+                          <div className="img-container hide-on-phone">
                             <img
                               src="../../images/big-stop-picnic-DSC_3300.jpg"
                               alt=""

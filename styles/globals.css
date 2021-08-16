@@ -189,7 +189,7 @@ p {
     padding: 15px !important;
   }
   #services h3 {
-    font-size: 30px !important;
+    font-size: 28px !important;
   }
   .text-content-box p {
     padding: 20px 0px 0px !important;
@@ -209,6 +209,9 @@ p {
   }
   .text-content-box {
     padding: 15px !important;
+  }
+  #services .text-content-box {
+    padding: 15px 0px !important;
   }
   .text-content-box h3 {
     padding: 15px 0px !important;
@@ -230,6 +233,33 @@ p {
   }
   .margin-top-10-on-phone {
     margin-top: 10px !important;
+  }
+  .each-slide > div {
+    height: 350px !important;
+  }
+  .search-click {
+    height: 50px;
+    width: 90%;
+    top: 2%;
+  }
+  .mega-menu-list {
+    padding: 10px 0px !important;
+  }
+  .mega-menu-list li {
+    padding: 8px 5px !important;
+  }
+  .mega-menu-list li a {
+    font-size: 18px !important;
+  }
+  .megamenu h3 {
+    font-size: 22px !important;
+  }
+  .megamenu-side-box .side-box-content {
+    width: 100% !important;
+    padding: 10px 0px !important;
+  }
+  .megamenu-side-box .side-box-content p {
+    font-size: 18px;
   }
 }
 /* ============ mobile view .end// ============ */
