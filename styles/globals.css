@@ -278,6 +278,9 @@ p {
   .nav-secondary span {
     font-size: 13px !important;
   }
+  #main_nav ul {
+    padding: 0px !important;
+  }
   #services .text-content-box h4,
   p,
   ul {
@@ -293,5 +296,13 @@ p {
   }
   #promotions .text-content-box h3 {
     padding: 0px !important;
+  }
+}
+/* Large screens (1405px upwards) */
+@media only screen and (min-width: 1920px) {
+  /* your css goes here */
+  .search-click {
+    right: 17%;
+    top: 2.9%;
   }
 }
