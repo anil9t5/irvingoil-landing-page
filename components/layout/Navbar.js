@@ -180,7 +180,7 @@ const Navbar = () => {
         }
         .mega-menu-list {
           list-style: none;
-          padding: 30px 20px;
+          padding: 30px 20px !important;
           li {
             padding: 10px;
           }
